@@ -17,7 +17,7 @@ var settings = {
 	nodesDir: "/Users/allomov/work/altoros/node-red/app/nodes",
     httpAdminRoot:"/",
     httpNodeRoot: "/api",
-    uiPort: process.env.PORT,
+    uiPort:  process.env.PORT || 3000,
     functionGlobalContext: { }    // enables global context
 };
 
